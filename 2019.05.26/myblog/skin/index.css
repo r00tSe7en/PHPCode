@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+html,body{background:#404040;margin:0;padding:0;font-family:Arial;}
+
+#head,#menu,#content,#other{width:1100px;margin:0 auto;}
+
+#head{overflow:hidden;padding:20px 0;}
+#head h1{margin:0;padding:0;}
+#head h1{float:left;background:#404040;color:#fff;font:24px/36px Arial;padding:4px 10px;margin-right:400px;}
+#head img{float:left;}
+#head form{float:right;position:relative;width:224px;}
+#head input{position:absolute;}
+#head .inbox{height:36px;font:18px/36px 微软雅黑;padding:0 10px;border:2px solid #000;width:200px;}
+#head .inbtn{left:160px;top:6px;}
+
+.menu_bg{background:#404040;height:50px;}
+#menu a{text-decoration:none;color:#fff;display:block;float:left;padding:0 20px;border-right:1px solid #fcf8f4;font:bold 14px/50px Arial;}
+#menu a:hover{background:#4486f0;}
+
+.banner img{display:block;}
+
+.content_bg{background:#404040;}
+#content{overflow:hidden;padding:30px 0;}
+#main{width:770px;float:left;background:#404040;}
+#main ul{list-style:none;margin:6px 30px 30px;padding:0;}
+#main li{overflow:hidden;border-bottom:1px solid #aeaeae;padding:24px 0;}
+#main li img{float:left;margin-right:20px; width: 200px;}
+#main li h4{font:bold 20px/36px verdana; color:white;margin:0;}
+#main li h4 a{color:white;text-decoration: none}
+#main li a{color:white;text-decoration: none}
+#main li p{font:14px/24px arial;color:white;}
+#main h4{font:bold 15px/20px verdana; color: white;margin:0;margin-top: 10px;margin-left: 10px}
+#main h3{color: white}
+#main h4 a{ text-decoration: none;color:white;}
+#main a:hover{ text-decoration: none;color:#4486f0;}
+
+#rightbar{width:304px;float:right;background:#404040;}
+.right1{text-align:center;margin:0;padding:30px 0;border-bottom:1px solid #aeaeae;}
+.right2{padding:30px;border-bottom:1px solid #aeaeae;}
+.right2 h3{margin-top:0;color: white}
+.right2 p{font:14px/24px arial;color:white;}
+.right2 .inbox{width:200px;font:18px/32px arial;border:2px solid #000;padding:0 10px;}
+.right2 .inbtn{margin-top:10px;background:#4486F0;height:30px;font:14px/30px arial;color:#fff;border:0;width:90px;}
+.right3{padding-left:30px;margin:30px 0 16px;color: white}
+.right3 a{color: white;text-decoration: none}
+.right3 a:hover{text-decoration: none}
+.right4{list-style:none;margin:0;padding:0 30px 30px;}
+.right4 img{float:left;margin-right:10px;}
+.right4 li{overflow:hidden;padding:20px 0;border-bottom:1px dashed #ccc;font:12px/14px arial;color:white;text-align: center}
+.right4 li a{text-decoration:none;color:white;font:16px/24px arial;}
+
+.other_bg{background:#404040;margin-bottom: 2px}
+#other{color:#fff;}
+#other ul{list-style:none;margin:0;padding:30px 0;line-height:22px;font-size:14px;overflow:hidden;}
+#other strong{display:block;background:#404040;padding:14px 20px;font:24px/24px arial;}
+#other li{float:left;width:220px;margin-right:130px;}
+#other li.l1{width:360px;}
+#other li.l3{margin:0;}
+#other li.l3 a:hover{color:#4486F0 }
+#other h4{margin:0;font:24px/30px verdana;border-bottom:1px solid #fff;color: white}
+#other p{margin:18px 0;}
+#other p a{color:white;text-decoration:none;}
+
+#footer{background:white;text-align:center;padding:30px 0;font-size:14px;}
+
+.page{text-align:center;font:14px/14px verdana,arial;margin:20px;}
+.page a{border:1px solid #ccc;text-decoration:none;padding:4px 6px;color:white;}
+.page a.on{border:1px solid dodgerblue;color:dodgerblue;}
+.page a:hover{border:1px solid dodgerblue;color:dodgerblue;}

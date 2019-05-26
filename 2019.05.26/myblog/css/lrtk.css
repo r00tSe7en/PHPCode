@@ -1,0 +1,175 @@
+
+.container-fluid {
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+}
+
+#activate {
+    margin: 17px 0;
+    width: 300px;
+    height: 64px;
+    font-size: 18px;
+}
+
+.header {
+    margin:0;
+}
+
+.headerImg {
+    width: 100%;
+    height: 300px;
+}
+
+.col-lg-7 {
+    padding-left: 150px;
+}
+
+.col-lg-7 p {
+    font-size: 18px;
+    margin: 50px 0;
+}
+
+.col-lg-5 {
+    padding: 0 100px;
+}
+
+.col-lg-5 img {
+    width: 100%;
+    max-width:400px;
+}
+
+.col-lg-5 div {
+    margin: 0 auto;
+}
+
+.credit {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+@media (max-width: 1200px) {
+    .col-lg-7 {
+        padding: 64px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        margin-bottom: 25px;
+    }
+
+    .col-lg-7 {
+        padding: 15px;
+    }
+
+    .col-lg-7 h2{
+        font-size: 16px;
+    }
+
+    .col-lg-7 p{
+        font-size: 12px;
+    }
+
+    .credit{
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    #bsaHolder, footer {
+        display: none;
+    }
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    z-index: 1;
+}
+
+
+/*Slideshow container*/
+
+.slideshow {
+    position: relative;
+    max-width: 100%;
+}
+
+/*Slideshow images*/
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85%;
+    background-position: center;
+    background-size: cover;
+	cursor:pointer;
+}
+
+/*Buttons*/
+
+.slideBtn {
+    position: absolute;
+    z-index: 10;
+    width: 50px;
+    height: 85%;
+    cursor: pointer;
+}
+
+.leftBtn {
+    left: 0px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+.rightBtn {
+    right: 0px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+/*Arrow pointers*/
+
+.pointer {
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+    z-index: 9001;
+    left: 12px;
+    opacity: 0.8;
+}
+
+.previous {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid white;
+
+}
+
+.next {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid white;
+    right: 12px;
+    left: auto;
+}
+
+/*Helper style classes*/
+
+.hide {
+    visibility: hidden;
+}
